@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+.logoohmyfood {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.geo {
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  border: 0;
+  font-size: 20px;
+}
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+.list-item {
+  padding: 1.5em 1em;
+  text-align: left;
+  border-radius: 1em;
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  padding: 1em 1.5em;
+  color: #ffffff;
+  transition: 250ms;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.btn--gradient {
+  background-image: radial-gradient(100% 50% at 20% 10%, #FF79DA 0%, #9356DC 200%);
+}
+.btn--radius {
+  border-radius: 2em;
+}
+.btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn__like:hover .heart-away, button:hover .heart-away {
+  opacity: 0;
+  transform: scale(0);
+}
+.btn__like:hover .heart-hover, button:hover .heart-hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+main {
+  font-family: "roboto", sans-serif;
+}
+main .head-block h1 {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+}
+main .head-block p {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+main .head-block a {
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+main .SectionFonctionnement h2 {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+main .SectionFonctionnement ol {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 25px;
+  margin: auto;
+}
+main .list-item p {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+main .lesRestaurants h2 {
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin: 15px;
+  font-weight: bold;
+}
+main .lesRestaurants ul {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 50px;
+}
+main .lesRestaurants img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+main .carte1 {
+  padding: 7px;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  color: #d0d0d2;
+  background-color: #ffffff;
+  border-radius: 20px;
+  transition: all 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

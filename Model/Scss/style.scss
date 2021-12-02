@@ -1,0 +1,97 @@
+@import "layout/headers";
+@import "layout/footer";
+
+
+@import "utils/mixins";
+@import "utils/normalize";
+@import "utils/variable";
+@import "utils/component";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+main{
+    font-family: 'roboto', sans-serif;
+
+    .head-block{
+        & h1{
+            padding: 20px;
+            text-align: center;
+            margin: auto;
+            font-weight: bold;
+        }
+        & p{
+            padding: 20px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+        }
+        & a{
+            padding: 20px;
+            text-align: center;
+            display:inline-block;
+            margin: 20px;
+            margin-left: 100px;
+            text-decoration: none;
+        }
+    }
+
+    .SectionFonctionnement{
+        & h2{
+            padding: 10px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            margin: 15px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        & ol{
+            display: grid;
+            grid-template-columns: auto;
+            gap: 25px;
+            margin: auto;
+        }
+    }
+
+    .list-item{
+        & p{
+            text-align: center;
+            margin: auto;
+            display: flex;
+        }
+    }
+
+    .lesRestaurants{
+        & h2{
+            padding: 10px;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            margin: 15px;
+            font-weight: bold;
+        }
+        & ul{
+            display: grid;
+            grid-template-columns: auto;
+            gap: 50px;
+        }
+        & img{
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+            border-radius: 15px 15px 0px 0px;
+        }
+    }
+    .carte1{
+        padding: 7px;
+        height: 100%;
+        display: block;
+        box-sizing: border-box;
+        color: #d0d0d2;
+        background-color: #ffffff;
+        border-radius: 20px;
+        transition: all 0.3s;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    }
+}
