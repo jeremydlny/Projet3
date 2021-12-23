@@ -1,5 +1,13 @@
 @import "../utils/variable";
+@import "../utils/mixins";
 
+header{
+    @extend %grid-center;
+    @include grid-template-set ($header);
+    padding: 1em;
+}
+
+/* Début Acceuil */
 .logoohmyfood {
     padding: 20px;
     text-align: center;
@@ -7,14 +15,16 @@
     display: flex;
 }
 
-.geo {
-    text-align: center;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
+/* Fin Acceuil */
 
-input{
-    border: 0;
+/* Début pages menus */
+.btn__retourHome {
+    @include grid-pos-set (1, auto, 1, auto);
+    justify-self: start;
+    position: relative;
+    top: 47px;
     font-size: 20px;
+    font-weight: 800;
+    color: black;
 }
+/* Fin pages menus */
